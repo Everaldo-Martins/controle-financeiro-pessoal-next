@@ -44,18 +44,18 @@ const GridItem: React.FC<GridItemProps> = ({ item, onDelete, onEdit }) => {
         <td className="w-1/5 p-2">R$ {parseFloat(item.amount).toFixed(2)}</td>
         <td className="w-1/12 p-2">
           {!item.expense ? (
-            <FaCircleInfo className="text-red-400 text-xl" />
+            <FaCircleInfo title="Valor Positivo." className="text-red-400 text-xl" />
           ) :  item.paid ? (
-            <FaCircleCheck className="text-green-600 text-xl" />
+            <FaCircleCheck title="Pago." className="text-green-600 text-xl" />
           ) : (
-            <FaCircle className="text-dark-gray text-xl" />
+            <FaCircle title="Não Pago." className="text-dark-gray text-xl" />
           )}
         </td>
         <td className="w-1/12 p-2">
-          <FaEdit onClick={() => onEdit(item.id)} />
+          <FaEdit title="Editar" onClick={() => onEdit(item.id)} />
         </td>
         <td className="w-1/12 p-2">
-          <FaTrash onClick={() => setShowModal(true)} />
+          <FaTrash title="Excluir" onClick={() => setShowModal(true)} />
         </td>
       </tr>
 
@@ -67,12 +67,14 @@ const GridItem: React.FC<GridItemProps> = ({ item, onDelete, onEdit }) => {
             </h2>
             <div className="flex justify-end gap-4">
               <button
+                title="Salvar"
                 className="bg-green-600 text-zinc-200 px-4 py-2 rounded-lg hover:bg-green-400"
                 onClick={handleDelete}
               >
                 Confirmar
               </button>
               <button
+                title="Cancelar"
                 className="bg-red-400 px-4 py-2 text-zinc-200 rounded-lg hover:bg-red-500"
                 onClick={() => setShowModal(false)}
               >
