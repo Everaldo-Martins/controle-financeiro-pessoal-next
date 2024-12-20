@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CFP - Controle Financeiro Pessoal
 
-## Getting Started
+## Descrição do Projeto
 
-First, run the development server:
+O **CFP (Controle Financeiro Pessoal)** é um projeto pessoal desenvolvido para aprender e praticar Next.js e TailwindCSS. Trata-se de uma aplicação simples que permite ao usuário gerenciar suas transações financeiras. Os dados são armazenados no **LocalStorage**, garantindo persistência mesmo após o fechamento do navegador.
+
+O projeto foi inspirado em [Sistema de Controle Financeiro React.js](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS/tree/main), adaptado e expandido para o ambiente de Next.js.
+
+---
+
+## Estrutura do Projeto
+
+A estrutura do projeto está organizada da seguinte forma:
+
+```
+controle-financeiro-pessoal-next
+|— public/               # Arquivos públicos (favicon, imagens, etc.)
+|— src/
+   |— app/
+      |— assets/          # Recursos como ícones ou imagens
+      |— components/      # Componentes reutilizáveis
+         |— Footer/       # Componente de rodapé
+         |— Form/         # Formulário para entrada de dados
+         |— Grid/         # Tabela para exibição de transações
+         |— Header/       # Cabeçalho da aplicação
+         |— Resume/       # Resumo das transações financeiras
+      |— globals.css      # Estilos globais
+      |— layout.tsx       # Layout padrão da aplicação
+      |— page.tsx         # Página principal
+   |— style/              # Arquivos adicionais de estilo
+|— .eslint.rc.json        # Configuração do ESLint
+|— tailwind.config.ts     # Configuração do TailwindCSS
+|— tsconfig.json          # Configuração do TypeScript
+```
+
+---
+
+## Tecnologias Utilizadas
+
+- **Next.js:** Framework para renderização do lado do servidor e criação de aplicações web modernas.
+- **TailwindCSS:** Framework de estilização utilitária para criar interfaces responsivas e customizadas.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática ao código.
+- **LocalStorage:** Para armazenamento local das transações financeiras.
+
+---
+
+## Funcionalidades
+
+- **Cadastro de Transações:** Entrada de dados financeiros como descrição, valor, tipo (entrada ou saída).
+- **Edição de Transações:** Possibilidade de editar transações existentes.
+- **Exclusão de Transações:** Opção para deletar transações com confirmação via modal.
+- **Resumo Financeiro:** Visualização do saldo total, entradas e saídas.
+- **Persistência de Dados:** Dados armazenados no LocalStorage.
+
+---
+
+## Componentes Principais
+
+### Footer
+
+Exibe informações de rodapé da aplicação.
+
+### Form
+
+Componente responsável pelo formulário de cadastro de transações.
+
+### Grid
+
+Tabela que lista todas as transações financeiras com opções para editar ou excluir cada item.
+
+### Header
+
+Cabeçalho da aplicação com o nome do projeto.
+
+### Resume
+
+Exibe um resumo financeiro com o saldo total, total de entradas e saídas.
+
+---
+
+## Instalação e Execução
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/CFP.git
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd CFP
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Abra o navegador e acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Referência
 
-To learn more about Next.js, take a look at the following resources:
+Projeto base em React, do William Lucas: [Sistema de Controle Financeiro](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS/tree/main)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este é um projeto pessoal e não possui licença oficial.
