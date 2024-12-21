@@ -4,7 +4,7 @@
 
 O **CFP (Controle Financeiro Pessoal)** é um projeto pessoal desenvolvido para aprender e praticar Next.js e TailwindCSS. Trata-se de uma aplicação simples que permite ao usuário gerenciar suas transações financeiras. Os dados são armazenados no **LocalStorage**, garantindo persistência mesmo após o fechamento do navegador.
 
-O projeto foi inspirado em [Sistema de Controle Financeiro React.js](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS/tree/main), adaptado e expandido para o ambiente de Next.js.
+O projeto foi inspirado em [Sistema de Controle Financeiro React.js](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS), adaptado e expandido para o ambiente de Next.js.
 
 ---
 
@@ -83,13 +83,13 @@ Exibe um resumo financeiro com o saldo total, total de entradas e saídas.
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/CFP.git
+git clone https://github.com/Everaldo-Martins/controle-financeiro-pessoal-next
 ```
 
 2. Acesse o diretório do projeto:
 
 ```bash
-cd CFP
+cd controle-financeiro-pessoal-next
 ```
 
 3. Instale as dependências:
@@ -114,7 +114,7 @@ http://localhost:3000
 
 ## Referência
 
-Projeto base em React, do William Lucas: [Sistema de Controle Financeiro](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS/tree/main)
+Projeto base em React, do William Lucas: [Sistema de Controle Financeiro React.js](https://github.com/WilliamDosSantos/Sistema-de-controle-financeiro-REACT.JS)
 
 ---
 
