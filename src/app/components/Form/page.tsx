@@ -57,13 +57,13 @@ const Form: React.FC<FormProps> = ({ handleAdd, transactionsList, setTransaction
         onClick={() => setModalOpen(true)}
       >
         <FaPlusCircle className="text-2xl" />
-        Adicionar Transação
+        Adicionar Item
       </button>
 
       {isModalOpen && (
-        <div className="w-full h-full fixed inset-0 flex items-center justify-center bg-black/30 z-40">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 backdrop-blur">
           <div className="bg-background p-6 rounded-lg shadow-lg w-full max-w-lg z-50">
-            <h2 className="text-xl font-bold mb-4">Nova Transação</h2>
+            <h2 className="text-xl font-bold mb-4">Adicionar Novo Item</h2>
             <section className="flex flex-col gap-4">
               <div className="flex flex-col gap-1">
                 <label>Descrição</label>
@@ -81,7 +81,7 @@ const Form: React.FC<FormProps> = ({ handleAdd, transactionsList, setTransaction
                   type="number"
                   onChange={(e) => setAmount(e.target.value)}
                 />
-              </div>              
+              </div>
               <div className="flex flex-col gap-1">
                 <label>Tipo</label>
                 <select
@@ -102,12 +102,12 @@ const Form: React.FC<FormProps> = ({ handleAdd, transactionsList, setTransaction
                   Salvar
                 </button>
                 <button
-                  className="flex flex-row gap-2 bg-gray-300 px-4 py-2 rounded-lg text-gray-800"
+                  className="flex flex-row gap-2 bg-red-400 px-4 py-2 rounded-lg text-foreground hover:bg-red-500"
                   onClick={() => setModalOpen(false)}
                 >
                   <FaCircleXmark className="text-2xl" />
                   Cancelar
-                </button>                
+                </button>
               </div>
             </section>
           </div>
