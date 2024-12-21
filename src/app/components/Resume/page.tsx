@@ -14,7 +14,7 @@ type ResumeProps = {
 
 const Resume: React.FC<ResumeProps> = ({ income, expense, saldo }) => {
   return (
-    <div className="w-full flex flex-col sm:flex-row justify-between align-middle gap-4 p-3 -mt-14">
+    <div className="w-full flex flex-col sm:flex-row justify-between align-middle gap-4 p-3 -mt-16">
       <ResumeItem
         title="Entradas"
         Icon={FaRegArrowAltCircleUp}

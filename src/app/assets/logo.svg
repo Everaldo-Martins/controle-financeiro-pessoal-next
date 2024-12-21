@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="118.09482mm"
+   height="36.963631mm"
+   viewBox="0 0 118.09482 36.963631"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2357987"
+     inkscape:cx="283.62225"
+     inkscape:cy="100.74457"
+     inkscape:window-width="1536"
+     inkscape:window-height="792"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <g
+     id="g7585">
+    <path
+       id="path5911"
+       style="fill:#f4f7fc;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 33.584822,2.9e-4 c -5.3004,0.03489 -10.62234,2.992986 -12.04578,10.768334 -1.87769,16.683492 15.64692,18.756496 22.61671,11.810132 l -3.3259,-3.338814 c -7.81691,6.311885 -16.23548,0.05371 -14.58981,-7.670333 0.84477,-4.204184 6.16616,-9.396664 13.56248,-5.072558 6.56496,8.72084 14.125755,10.862369 22.037935,10.684619 l 19.44842,-0.09147 c 12.02205,-0.07701 11.67431,-16.364714 0.0543,-16.44034 l -12.38839,-0.0098 0.11627,12.124324 c -5.29483,0.190403 -10.56436,0.49915 -16.3437,-1.617989 l -0.0961,-6.048726 13.25655,0.05168 -0.0682,-4.350638 -17.846965,-0.263034 -0.0951,7.747848 C 45.566102,6.605751 43.053482,2.287215 40.430972,1.586776 38.398632,0.572383 35.994152,-0.01555 33.584882,3.1e-4 Z m 39.634265,4.997627 7.85327,0.02119 c 5.44255,0.163669 5.20347,7.691927 0.0806,7.765417 l -7.91269,-0.146244 z" />
+    <path
+       style="fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.594252,25.492712 4.744525,0.0064 -0.0792,-8.392356 c -1.399805,-0.443833 -2.618215,-0.563002 -4.558545,-1.97426 z"
+       id="path5976" />
+    <path
+       style="fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.789117,18.422746 4.75893,0.0054 -0.0178,7.069879 -4.81268,0.03461 z"
+       id="path5978" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.36298px;font-family:Lato;-inkscape-font-specification:'Lato Light';fill:#f4f7fc;fill-opacity:1;stroke:none;stroke-width:1.85524;stroke-dasharray:none;stroke-opacity:1"
+       x="-0.33133456"
+       y="36.904728"
+       id="text6048"><tspan
+   id="tspan6046"
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';fill:#f4f7fc;stroke-width:1.85524;fill-opacity:1"
+   x="-0.33133456"
+   y="36.904728">CONTROLE FINANCEIRO PESSOAL</tspan> </text>
+  </g>
+</svg>
