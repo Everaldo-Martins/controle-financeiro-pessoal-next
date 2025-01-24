@@ -52,8 +52,10 @@ const Form: React.FC<FormProps> = ({ handleAdd, transactionsList, setTransaction
 
   return (
     <>
+      <Grid itens={transactionsList} setItens={setTransactionsList} />
+
       <button
-        className="flex flex-row gap-2 bg-green-600 hover:bg-green-800 px-4 py-2 rounded-lg font-bold"
+        className="w-full flex flex-row justify-center gap-2 bg-green-600 hover:bg-green-800 px-4 py-2 font-bold"
         onClick={() => setModalOpen(true)}
       >
         <FaPlusCircle className="text-2xl" />
@@ -113,8 +115,6 @@ const Form: React.FC<FormProps> = ({ handleAdd, transactionsList, setTransaction
           </div>
         </div>
       )}
-
-      <Grid itens={transactionsList} setItens={setTransactionsList} />
     </>
   );
 };
